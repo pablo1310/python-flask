@@ -4,15 +4,13 @@ info:
   description: "A simple API"
   version: "0.0.1"
   title: "AD_API"
-host: "127.0.0.1:8080"
-basePath: "/"
+basePath: "/api"
 schemes:
 - "http"
-- "https"
 consumes:
 - "application/json"
 paths:
-  /group:
+  /groups:
     get:
       description: "Returns members of the group"
       operationId: "group_get"
